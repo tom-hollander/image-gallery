@@ -1,0 +1,21 @@
+.gallery-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-container ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-container li {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+}
+
