@@ -25,7 +25,7 @@ export class ImageGallery extends React.Component {
                                 width={imageData.low_resolution.width}
                                 url={imageData.low_resolution.url}
                                 backgroundColor={
-                                    imageData.standard_resolution.prominentColor
+                                    imageData.prominentColor
                                 }
                             />
                         </li>
