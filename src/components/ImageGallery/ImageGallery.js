@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Image from '../Image';
 import withInfiniteScroll from '../withInfinateScroll';
 
-export class ImageGallery extends React.Component {
+export class ImageGallery extends React.PureComponent {
     constructor(props) {
         super(props);
 
